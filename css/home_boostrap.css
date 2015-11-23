@@ -1,0 +1,99 @@
+		/*
+CSS for my forum social site template
+		*/
+
+		*{
+		margin: 0px;
+		padding: 0px;
+						}
+
+
+		
+			body{
+		text-align: center;
+		color:  #004d40;
+				}
+
+
+#container_div{
+		border: 1px solid black;
+		width: 1000px;
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #b2dfdb;	
+		}
+
+#top_header{
+	background-color: #004d40;
+	color: white;
+		}
+
+#navigation_bar{
+	background-color: #00796b;
+	width: inherit;
+	color: white;
+	font-weight: bold;
+	display: inline-block;
+		}
+#navigation_left{
+	float: left;
+		}
+#navigation_right{
+	float: right;
+		}
+#navigation_bar li{
+	display: inline-block;
+	list-style: none;
+	font-size: 14px;
+	margin-left:5em
+ 		}		
+#main_section{
+	float: left;
+	width: 660px;
+	margin: 30px;/*720 px*/
+}
+#posts_section{
+	float: left;
+	width: 660px;
+	margin: 30px;/*720 px*/
+}
+#side_bar{
+	float: left;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 30px;
+	background: #66CCCC;
+}
+#footer_bar{
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 1px solid cyan;
+	background: rgb(230,230,200);
+
+}
+article {
+	border: 1px solid #00AAAA;
+	padding: 20px;
+	margin-bottom: 15px;
+	background-color: #E0F2F1;
+}
+article footer{
+	text-align: right;
+}
+			h1 {
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	outline-color: white;
+	padding: 2px;
+		}
+
+			h2 {
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+		}
